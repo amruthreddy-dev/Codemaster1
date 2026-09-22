@@ -1,0 +1,6 @@
+{
+  "name": "Code Masters",
+  "description": "The Ultimate Coding Challenge organized by Department of CSE (AI & ML), School of Computing, Vel Tech University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

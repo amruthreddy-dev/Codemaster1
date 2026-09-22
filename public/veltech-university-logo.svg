@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" fill="none">
+  <defs>
+    <linearGradient id="vtNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F284E" />
+      <stop offset="100%" stop-color="#08182E" />
+    </linearGradient>
+    <linearGradient id="vtGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#FFA500" />
+      <stop offset="100%" stop-color="#CC8400" />
+    </linearGradient>
+    <linearGradient id="vtCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C8FF" />
+      <stop offset="100%" stop-color="#0878FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Crest Shield -->
+  <g transform="translate(10, 8)">
+    <!-- Outer Shield with Gold Accent -->
+    <path d="M42,2 L76,14 C76,55 58,74 42,82 C26,74 8,55 8,14 Z" fill="url(#vtNavy)" stroke="url(#vtGold)" stroke-width="2.5"/>
+    
+    <!-- Inner Border Line -->
+    <path d="M42,7 L71,17 C71,51 55,68 42,75 C29,68 13,51 13,17 Z" fill="none" stroke="#00C8FF" stroke-width="1" opacity="0.6"/>
+
+    <!-- Rising Sun / Knowledge Rays -->
+    <path d="M42,28 L42,16 M32,32 L23,24 M52,32 L61,24 M27,40 L16,39 M57,40 L68,39" stroke="url(#vtGold)" stroke-width="1.5" stroke-linecap="round" />
+    <circle cx="42" cy="35" r="7" fill="url(#vtGold)" />
+
+    <!-- Open Book / Wisdom Symbol -->
+    <path d="M42,50 C36,46 26,46 22,48 L22,62 C27,60 36,60 42,64 C48,60 57,60 62,62 L62,48 C58,46 48,46 42,50 Z" fill="#FFFFFF" opacity="0.9" />
+    <path d="M42,50 L42,64" stroke="#08182E" stroke-width="1.5" />
+
+    <!-- Laurel Leaves Accent -->
+    <path d="M19,30 Q16,45 22,58" fill="none" stroke="url(#vtGold)" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M65,30 Q68,45 62,58" fill="none" stroke="url(#vtGold)" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(105, 22)">
+    <!-- Primary Name -->
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="900" letter-spacing="1.5" fill="#FFFFFF">
+      Vel Tech
+    </text>
+    <text x="125" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" letter-spacing="1" fill="url(#vtGold)">
+      UNIVERSITY
+    </text>
+
+    <!-- Subtitle / Full Official Identity -->
+    <text x="0" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" letter-spacing="0.5" fill="#00C8FF">
+      RANGARAJAN DR. SAGUNTHALA R&amp;D INSTITUTE OF SCIENCE AND TECHNOLOGY
+    </text>
+
+    <!-- Department & Campus Location -->
+    <text x="0" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" letter-spacing="0.8" fill="#D9E2F0">
+      School of Computing • Dept. of CSE (AI &amp; ML) • Avadi, Chennai
+    </text>
+  </g>
+</svg>

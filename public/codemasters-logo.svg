@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" fill="none" role="img" aria-label="Code Masters Logo">
+  <defs>
+    <!-- Outer Brackets & Slash Gradient -->
+    <linearGradient id="cmGradBracket" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" />
+      <stop offset="50%" stop-color="#0094FF" />
+      <stop offset="100%" stop-color="#004DF5" />
+    </linearGradient>
+
+    <!-- MASTERS Vibrant Gradient -->
+    <linearGradient id="cmGradMasters" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00EEFF" />
+      <stop offset="35%" stop-color="#00C0FF" />
+      <stop offset="70%" stop-color="#0077FF" />
+      <stop offset="100%" stop-color="#004DF5" />
+    </linearGradient>
+
+    <!-- CODE Pure Bright Sheen Gradient -->
+    <linearGradient id="cmGradCode" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="75%" stop-color="#F2F9FF" />
+      <stop offset="100%" stop-color="#CBE6FE" />
+    </linearGradient>
+
+    <!-- Horizontal Lines Gradients -->
+    <linearGradient id="cmGradLineL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0080FF" />
+    </linearGradient>
+    <linearGradient id="cmGradLineR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0080FF" />
+      <stop offset="100%" stop-color="#004DF5" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Ambient Shadow for CODE -->
+    <filter id="cmShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0088FF" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Left Outer Bracket < -->
+  <path d="M 194,84 L 48,240 L 194,396 L 194,324 L 118,240 L 194,156 Z" fill="url(#cmGradBracket)" />
+
+  <!-- Right Outer Bracket > -->
+  <path d="M 806,84 L 952,240 L 806,396 L 806,324 L 882,240 L 806,156 Z" fill="url(#cmGradBracket)" />
+
+  <!-- CODE Word -->
+  <g fill="url(#cmGradCode)" filter="url(#cmShadow)">
+    <!-- C -->
+    <path d="M 342,116 L 260,116 C 240,116 228,128 228,148 L 228,188 C 228,208 240,220 260,220 L 342,220 L 342,192 L 265,192 C 257,192 254,188 254,182 L 254,154 C 254,148 257,144 265,144 L 342,144 Z" />
+
+    <!-- O -->
+    <path d="M 398,116 L 454,116 C 474,116 486,128 486,148 L 486,188 C 486,208 474,220 454,220 L 398,220 C 378,220 366,208 366,188 L 366,148 C 366,128 378,116 398,116 Z M 402,144 C 395,144 392,148 392,154 L 392,182 C 392,188 395,192 402,192 L 450,192 C 457,192 460,188 460,182 L 460,154 C 460,148 457,144 450,144 Z" />
+
+    <!-- D -->
+    <path d="M 510,116 L 576,116 C 606,116 626,132 626,168 C 626,204 606,220 576,220 L 510,220 Z M 536,144 L 536,192 L 572,192 C 592,192 600,182 600,168 C 600,154 592,144 572,144 Z" />
+
+    <!-- E -->
+    <path d="M 648,116 L 762,116 L 762,144 L 674,144 L 674,154 L 748,154 L 748,180 L 674,180 L 674,192 L 764,192 L 764,220 L 648,220 Z" />
+  </g>
+
+  <!-- MASTERS Word -->
+  <g fill="url(#cmGradMasters)">
+    <!-- M -->
+    <path d="M 204,248 L 226,248 L 247,294 L 268,248 L 290,248 L 290,336 L 268,336 L 268,284 L 253,314 L 241,314 L 226,284 L 226,336 L 204,336 Z" />
+
+    <!-- A (with upward triangular notch) -->
+    <path d="M 333,248 L 349,248 L 384,336 L 360,336 L 341,290 L 322,336 L 298,336 Z" />
+
+    <!-- S -->
+    <path d="M 400,248 L 450,248 L 466,264 L 466,282 L 418,282 L 418,290 L 466,298 L 466,336 L 416,336 L 400,320 L 400,302 L 448,302 L 448,294 L 400,286 Z" />
+
+    <!-- T -->
+    <path d="M 474,248 L 542,248 L 542,270 L 519,270 L 519,336 L 497,336 L 497,270 L 474,270 Z" />
+
+    <!-- E -->
+    <path d="M 552,248 L 616,248 L 616,270 L 575,270 L 575,281 L 610,281 L 610,303 L 575,303 L 575,314 L 616,314 L 616,336 L 552,336 Z" />
+
+    <!-- R -->
+    <path d="M 626,248 L 678,248 C 695,248 704,257 704,272 C 704,285 695,293 682,295 L 704,336 L 681,336 L 662,296 L 648,296 L 648,336 L 626,336 Z M 648,268 L 648,278 L 674,278 C 678,278 680,276 680,273 C 680,270 678,268 674,268 Z" />
+
+    <!-- S (matching first S) -->
+    <path d="M 718,248 L 768,248 L 784,264 L 784,282 L 736,282 L 736,290 L 784,298 L 784,336 L 734,336 L 718,320 L 718,302 L 766,302 L 766,294 L 718,286 Z" />
+  </g>
+
+  <!-- Accent Divider: Left Line, </>, Right Line -->
+  <rect x="215" y="370" width="213" height="4" rx="2" fill="url(#cmGradLineL)" />
+  <rect x="572" y="370" width="213" height="4" rx="2" fill="url(#cmGradLineR)" />
+
+  <g stroke="url(#cmGradBracket)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- < -->
+    <path d="M 466,358 L 444,372 L 466,386" />
+    <!-- / -->
+    <path d="M 488,390 L 512,354" />
+    <!-- > -->
+    <path d="M 534,358 L 556,372 L 534,386" />
+  </g>
+</svg>
